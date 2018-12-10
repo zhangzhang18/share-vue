@@ -15,8 +15,7 @@ git push --set-upstream origin newBranchName
 ```
 npm run serve  // 开发环境
 npm run build  // 环境打包
-npm run lint  // 似乎是eslint
-yarn analyze  // webpack 模块分析工具
+npm run lint  // eslint语法验证
 ```
 
 
