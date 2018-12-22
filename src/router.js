@@ -12,15 +12,22 @@ export default new Router({
       children: [
         {
           path: '/',
-          redirect: '/index'
+          redirect: '/index',
+          
         },
         {
           path: '/index',
-          component: resolve => require(['@/components/first'], resolve)
-        },
-        {
-          path: '/second',
-          component: resolve => require(['@/components/second'], resolve)
+          component: resolve => require(['@/components/index/Index'], resolve),
+          children: [
+            {
+              path: '/Redis',
+              component: resolve => require(['@/components/content/Redis'], resolve)
+            },
+            {
+              path: '/Es',
+              component: resolve => require(['@/components/content/Es'], resolve)
+            }
+          ]
         },
       ]
     }
