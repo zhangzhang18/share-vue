@@ -26,6 +26,10 @@ export default new Router({
             {
               path: '/Es',
               component: resolve => require(['@/components/content/Es'], resolve)
+            },
+            {
+              path: '/Vue',
+              component: resolve => require(['@/components/content/Vue'], resolve)
             }
           ]
         },

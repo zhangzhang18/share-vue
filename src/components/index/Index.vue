@@ -12,7 +12,7 @@
           <router-view></router-view>
         </Content>
       </Layout>
-      <Footer>Footer</Footer>
+      <Footer></Footer>
     </Layout>
 </template>
 

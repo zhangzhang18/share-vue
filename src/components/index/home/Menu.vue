@@ -10,11 +10,11 @@
           <MenuItem name="Redis">Redis</MenuItem>
           <MenuItem name="ES">ES</MenuItem>
         </Submenu>
-        <Submenu name="2">
+        <Submenu name="Example">
           <template slot="title">
             <Icon type="ios-keypad"></Icon>Item 2
           </template>
-          <MenuItem name="2-1">Option 1</MenuItem>
+          <MenuItem name="Vue">VUE分享</MenuItem>
           <MenuItem name="2-2">Option 2</MenuItem>
         </Submenu>
         <Submenu name="3">
